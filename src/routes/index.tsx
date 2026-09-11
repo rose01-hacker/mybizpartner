@@ -9,10 +9,10 @@ import { QualifySection } from "@/components/landing/QualifySection";
 import { HowItWorks } from "@/components/landing/HowItWorks";
 import { EcosystemSection } from "@/components/landing/EcosystemSection";
 import { FinalCta } from "@/components/landing/FinalCta";
-import { LeadForm } from "@/components/landing/LeadForm";
 import { SiteFooter } from "@/components/landing/SiteFooter";
 import { StickyCta } from "@/components/landing/StickyCta";
 import { CtaButton } from "@/components/landing/CtaButton";
+import logo from "@/assets/mybizpartner-logo.png.asset.json";
 
 const title = "Free Shopify Conversion Leak Report | MyBizPartner";
 const description =
