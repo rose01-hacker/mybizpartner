@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { scrollToForm } from "./CtaButton";
+import { CTA_HREF } from "./CtaButton";
 
 export function StickyCta() {
   const [show, setShow] = useState(false);
@@ -17,9 +17,9 @@ export function StickyCta() {
         show ? "translate-y-0" : "translate-y-full"
       }`}
     >
-      <button type="button" onClick={scrollToForm} className="btn-cta w-full">
+      <a href={CTA_HREF} className="btn-cta w-full">
         Find my conversion leaks <span aria-hidden="true">→</span>
-      </button>
+      </a>
     </div>
   );
 }

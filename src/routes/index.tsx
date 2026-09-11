@@ -9,10 +9,10 @@ import { QualifySection } from "@/components/landing/QualifySection";
 import { HowItWorks } from "@/components/landing/HowItWorks";
 import { EcosystemSection } from "@/components/landing/EcosystemSection";
 import { FinalCta } from "@/components/landing/FinalCta";
-import { LeadForm } from "@/components/landing/LeadForm";
 import { SiteFooter } from "@/components/landing/SiteFooter";
 import { StickyCta } from "@/components/landing/StickyCta";
 import { CtaButton } from "@/components/landing/CtaButton";
+import logo from "@/assets/mybizpartner-logo.png.asset.json";
 
 const title = "Free Shopify Conversion Leak Report | MyBizPartner";
 const description =
@@ -51,7 +51,7 @@ function Index() {
   return (
     <div className="min-h-screen pb-20 md:pb-0">
       <header className="section-x flex items-center justify-between py-5">
-        <span className="font-display text-lg font-bold tracking-tight">MyBizPartner</span>
+        <img src={logo.url} alt="MyBizPartner logo" width={220} height={56} className="h-9 w-auto" />
         <CtaButton label="Free report" className="hidden px-5 py-3 sm:inline-flex" />
       </header>
 
@@ -65,7 +65,6 @@ function Index() {
         <HowItWorks />
         <EcosystemSection />
         <FinalCta />
-        <LeadForm />
       </main>
 
       <SiteFooter />
