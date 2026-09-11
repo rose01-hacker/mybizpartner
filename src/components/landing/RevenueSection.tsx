@@ -44,7 +44,7 @@ export function RevenueSection() {
 
           <Reveal delay={160}>
             <div className="surface-card h-full border-accent/50 p-7">
-              <p className="eyebrow text-accent-foreground">Optimized</p>
+              <p className="eyebrow text-accent">Optimized</p>
               <p className="display-2 mt-3 text-4xl">1,000</p>
               <p className="text-sm text-muted-foreground">same visitors</p>
               <div className="mt-6 space-y-3">
