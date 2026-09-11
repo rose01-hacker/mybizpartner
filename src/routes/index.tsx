@@ -51,7 +51,7 @@ function Index() {
   return (
     <div className="min-h-screen pb-20 md:pb-0">
       <header className="section-x flex items-center justify-between py-5">
-        <span className="font-display text-lg font-bold tracking-tight">MyBizPartner</span>
+        <img src={logo.url} alt="MyBizPartner logo" width={220} height={56} className="h-9 w-auto" />
         <CtaButton label="Free report" className="hidden px-5 py-3 sm:inline-flex" />
       </header>
 
@@ -65,7 +65,6 @@ function Index() {
         <HowItWorks />
         <EcosystemSection />
         <FinalCta />
-        <LeadForm />
       </main>
 
       <SiteFooter />
