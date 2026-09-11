@@ -1,7 +1,8 @@
 import { useState, type FormEvent } from "react";
 import { Reveal } from "./Reveal";
 
-type Errors = Record<string, string>;
+type FieldKey = "name" | "email" | "company" | "store" | "traffic" | "challenge";
+type Errors = Partial<Record<FieldKey, string>>;
 
 const initial = {
   name: "",
@@ -160,7 +161,7 @@ function Field({
   label: string;
   value: string;
   onChange: (v: string) => void;
-  error?: string;
+  error?: string | undefined;
   type?: string;
   placeholder?: string;
   autoComplete?: string;
