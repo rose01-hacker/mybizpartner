@@ -1,24 +1,76 @@
 import { createFileRoute } from "@tanstack/react-router";
 
-// No head() here: the home route inherits title/description/og/twitter from
-// __root.tsx, and ships no og:image so serve-time hosting can inject the
-// project's social preview (explicit og:image or latest screenshot).
+import { Hero } from "@/components/landing/Hero";
+import { TrafficSection } from "@/components/landing/TrafficSection";
+import { LeaksSection } from "@/components/landing/LeaksSection";
+import { RevenueSection } from "@/components/landing/RevenueSection";
+import { ReportSection } from "@/components/landing/ReportSection";
+import { QualifySection } from "@/components/landing/QualifySection";
+import { HowItWorks } from "@/components/landing/HowItWorks";
+import { EcosystemSection } from "@/components/landing/EcosystemSection";
+import { FinalCta } from "@/components/landing/FinalCta";
+import { LeadForm } from "@/components/landing/LeadForm";
+import { SiteFooter } from "@/components/landing/SiteFooter";
+import { StickyCta } from "@/components/landing/StickyCta";
+import { CtaButton } from "@/components/landing/CtaButton";
+
+const title = "Free Shopify Conversion Leak Report | MyBizPartner";
+const description =
+  "Find the 3 biggest conversion leaks costing your Shopify store sales. Free report — no credit card, no obligation.";
+
 export const Route = createFileRoute("/")({
   component: Index,
+  head: () => ({
+    meta: [
+      { title },
+      { name: "description", content: description },
+      { property: "og:title", content: title },
+      { property: "og:description", content: description },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "/" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+    links: [{ rel: "canonical", href: "/" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "MyBizPartner",
+          url: "https://mybizpartner.in",
+          email: "tech@mybizpartner.in",
+          description: "Reviews, UGC, social proof and CRO for Shopify brands.",
+        }),
+      },
+    ],
+  }),
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="min-h-screen pb-20 md:pb-0">
+      <header className="section-x flex items-center justify-between py-5">
+        <span className="font-display text-lg font-bold tracking-tight">MyBizPartner</span>
+        <CtaButton label="Free report" className="hidden px-5 py-3 sm:inline-flex" />
+      </header>
+
+      <main>
+        <h1 className="sr-only">Free Shopify Conversion Leak Report by MyBizPartner</h1>
+        <Hero />
+        <TrafficSection />
+        <LeaksSection />
+        <RevenueSection />
+        <ReportSection />
+        <QualifySection />
+        <HowItWorks />
+        <EcosystemSection />
+        <FinalCta />
+        <LeadForm />
+      </main>
+
+      <SiteFooter />
+      <StickyCta />
     </div>
   );
 }
