@@ -56,7 +56,6 @@ function Index() {
       </header>
 
       <main>
-        <h1 className="sr-only">Free Shopify Conversion Leak Report by MyBizPartner</h1>
         <Hero />
         <TrafficSection />
         <LeaksSection />
