@@ -1,9 +1,5 @@
-export function scrollToForm() {
-  const el = document.getElementById("report-form");
-  el?.scrollIntoView({ behavior: "smooth", block: "start" });
-  const input = el?.querySelector("input");
-  window.setTimeout(() => (input as HTMLInputElement | null)?.focus(), 700);
-}
+export const CTA_HREF =
+  "mailto:tech@mybizpartner.in?subject=Free%20Shopify%20Conversion%20Leak%20Report";
 
 export function CtaButton({
   label = "Find my conversion leaks",
@@ -13,8 +9,8 @@ export function CtaButton({
   className?: string;
 }) {
   return (
-    <button type="button" onClick={scrollToForm} className={`btn-cta ${className}`}>
+    <a href={CTA_HREF} className={`btn-cta ${className}`}>
       {label} <span aria-hidden="true">→</span>
-    </button>
+    </a>
   );
 }
