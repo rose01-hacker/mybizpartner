@@ -1,4 +1,4 @@
-import logo from "@/assets/mybizpartner-logo.png.asset.json";
+import logo from "@/assets/mybizpartner-logo-clear.png.asset.json";
 
 export function SiteFooter() {
   return (
