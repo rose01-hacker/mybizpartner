@@ -65,6 +65,7 @@ function Index() {
         <QualifySection />
         <HowItWorks />
         <EcosystemSection />
+        <BookingForm />
         <FinalCta />
       </main>
 
