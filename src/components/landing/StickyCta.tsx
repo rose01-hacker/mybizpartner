@@ -17,7 +17,7 @@ export function StickyCta() {
         show ? "translate-y-0" : "translate-y-full"
       }`}
     >
-      <a href={CTA_HREF} target="_blank" rel="noopener noreferrer" className="btn-cta w-full">
+      <a href={CTA_HREF} className="btn-cta w-full">
         Find my conversion leaks <span aria-hidden="true">→</span>
       </a>
     </div>
