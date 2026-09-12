@@ -12,7 +12,7 @@ import { FinalCta } from "@/components/landing/FinalCta";
 import { SiteFooter } from "@/components/landing/SiteFooter";
 import { StickyCta } from "@/components/landing/StickyCta";
 import { CtaButton } from "@/components/landing/CtaButton";
-import logo from "@/assets/mybizpartner-logo.png.asset.json";
+import logo from "@/assets/mybizpartner-logo-clear.png.asset.json";
 
 const title = "Free Shopify Conversion Leak Report | MyBizPartner";
 const description =

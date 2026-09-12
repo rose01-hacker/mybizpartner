@@ -1,5 +1,4 @@
-export const CTA_HREF =
-  "mailto:tech@mybizpartner.in?subject=Free%20Shopify%20Conversion%20Leak%20Report";
+export const CTA_HREF = "https://www.mybizpartner.in/book-demo";
 
 export function CtaButton({
   label = "Find my conversion leaks",
@@ -9,7 +8,7 @@ export function CtaButton({
   className?: string;
 }) {
   return (
-    <a href={CTA_HREF} className={`btn-cta ${className}`}>
+    <a href={CTA_HREF} target="_blank" rel="noopener noreferrer" className={`btn-cta ${className}`}>
       {label} <span aria-hidden="true">→</span>
     </a>
   );
