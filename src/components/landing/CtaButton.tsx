@@ -8,7 +8,7 @@ export function CtaButton({
   className?: string;
 }) {
   return (
-    <a href={CTA_HREF} className={`btn-cta ${className}`}>
+    <a href={CTA_HREF} target="_blank" rel="noopener noreferrer" className={`btn-cta ${className}`}>
       {label} <span aria-hidden="true">→</span>
     </a>
   );
