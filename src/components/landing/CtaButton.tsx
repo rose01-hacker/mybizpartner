@@ -1,5 +1,4 @@
-export const CTA_HREF =
-  "mailto:tech@mybizpartner.in?subject=Free%20Shopify%20Conversion%20Leak%20Report";
+export const CTA_HREF = "https://www.mybizpartner.in/book-demo";
 
 export function CtaButton({
   label = "Find my conversion leaks",
