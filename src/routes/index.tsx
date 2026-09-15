@@ -14,9 +14,9 @@ import { StickyCta } from "@/components/landing/StickyCta";
 import { CtaButton } from "@/components/landing/CtaButton";
 import logo from "@/assets/mybizpartner-logo-clear.png.asset.json";
 
-const title = "Free Shopify Conversion Leak Report | MyBizPartner";
+const title = "Free Conversion Leak Report | MyBizPartner";
 const description =
-  "Find the 3 biggest conversion leaks costing your Shopify store sales. Free report — no credit card, no obligation.";
+  "Find the 3 biggest conversion leaks costing your store sales. Free report — no credit card, no obligation.";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -40,7 +40,7 @@ export const Route = createFileRoute("/")({
           name: "MyBizPartner",
           url: "https://mybizpartner.in",
           email: "tech@mybizpartner.in",
-          description: "Reviews, UGC, social proof and CRO for Shopify brands.",
+          description: "Reviews, UGC, social proof and CRO for online brands.",
         }),
       },
     ],

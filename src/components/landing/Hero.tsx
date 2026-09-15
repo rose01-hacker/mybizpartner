@@ -17,7 +17,7 @@ export function Hero() {
       <div className="section-x grid items-center gap-12 lg:grid-cols-[1.05fr_1fr] lg:gap-16">
         <Reveal>
           <span className="eyebrow inline-flex items-center gap-2 rounded-full bg-accent/25 px-3 py-1.5 text-foreground">
-            <span className="size-2 rounded-full bg-accent" /> Free Shopify Conversion Leak Report
+            <span className="size-2 rounded-full bg-accent" /> Free Conversion Leak Report
           </span>
 
           <h1 className="mt-6">
@@ -30,7 +30,7 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-lg text-muted-foreground">
-            Your Shopify store may be getting visitors every day. But somewhere between landing on
+            Your store may be getting visitors every day. But somewhere between landing on
             your website and clicking "Buy Now," potential customers are leaving.
           </p>
 
@@ -51,7 +51,7 @@ export function Hero() {
             <div className="surface-card relative overflow-hidden p-3">
               <img
                 src={heroStore}
-                alt="Premium Shopify storefront shown on a laptop and a mobile phone"
+                alt="Premium online storefront shown on a laptop and a mobile phone"
                 width={1280}
                 height={1024}
                 className="w-full rounded-xl object-cover"

@@ -2,7 +2,7 @@ import report from "@/assets/report.jpg";
 import { Reveal } from "./Reveal";
 
 const cards = [
-  { n: "01", title: "Shopify Store Review", desc: "Desktop and mobile walkthrough of your store." },
+  { n: "01", title: "Store Review", desc: "Desktop and mobile walkthrough of your store." },
   { n: "02", title: "Top 3 Conversion Leaks", desc: "Priority-flagged friction points." },
   { n: "03", title: "Improvement Opportunities", desc: "A practical recommendation checklist." },
   { n: "04", title: "Revenue Opportunity View", desc: "What your existing traffic could unlock." },
