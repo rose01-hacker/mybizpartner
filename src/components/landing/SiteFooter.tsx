@@ -1,3 +1,4 @@
+import { Mail, Phone } from "lucide-react";
 import logo from "@/assets/mybizpartner-logo-clear.png.asset.json";
 
 export function SiteFooter() {
@@ -22,7 +23,18 @@ export function SiteFooter() {
           <a href="https://mybizpartner.in" className="block hover:text-accent">
             mybizpartner.in
           </a>
-          <a href="mailto:tech@mybizpartner.in" className="block hover:text-accent">
+          <a
+            href="tel:+916350224151"
+            className="mt-3 flex items-center gap-2 hover:text-accent"
+          >
+            <Phone className="h-4 w-4 text-accent" aria-hidden="true" />
+            +91 63502 24151
+          </a>
+          <a
+            href="mailto:tech@mybizpartner.in"
+            className="mt-1 flex items-center gap-2 hover:text-accent"
+          >
+            <Mail className="h-4 w-4 text-accent" aria-hidden="true" />
             tech@mybizpartner.in
           </a>
           <div className="mt-4 flex items-center gap-4">
@@ -39,7 +51,7 @@ export function SiteFooter() {
               LinkedIn
             </a>
             <a
-              href="https://www.instagram.com/mybizpartner_d2c?stkn=MTBnazRoN2Nrazl6cg=="
+              href="https://www.instagram.com/mybizpartner_d2c/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="MyBizPartner on Instagram"
