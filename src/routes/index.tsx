@@ -9,7 +9,6 @@ import { QualifySection } from "@/components/landing/QualifySection";
 import { HowItWorks } from "@/components/landing/HowItWorks";
 import { EcosystemSection } from "@/components/landing/EcosystemSection";
 import { FinalCta } from "@/components/landing/FinalCta";
-import { BookingForm } from "@/components/landing/BookingForm";
 import { SiteFooter } from "@/components/landing/SiteFooter";
 import { StickyCta } from "@/components/landing/StickyCta";
 import { CtaButton } from "@/components/landing/CtaButton";
@@ -65,7 +64,6 @@ function Index() {
         <QualifySection />
         <HowItWorks />
         <EcosystemSection />
-        <BookingForm />
         <FinalCta />
       </main>
 
