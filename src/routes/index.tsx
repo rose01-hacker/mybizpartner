@@ -51,7 +51,7 @@ function Index() {
   return (
     <div className="min-h-screen pb-20 md:pb-0">
       <header className="section-x flex items-center justify-between py-5">
-        <img src="favicon11.png" alt="MyBizPartner logo" width={220} height={56} className="h-9 w-auto" />
+        <img src="image.png" alt="MyBizPartner logo" width={280} height={72} className="h-14 w-auto" />
         <CtaButton label="Free report" className="hidden px-5 py-3 sm:inline-flex" />
       </header>
 
