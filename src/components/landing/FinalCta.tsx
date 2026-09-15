@@ -9,7 +9,7 @@ export function FinalCta() {
         <Reveal>
           <h2 className="display-2">Stop guessing where your sales are leaking.</h2>
           <p className="mt-5 text-xl text-ink-muted">
-            Find the 3 biggest conversion opportunities in your Shopify store.
+            Find the 3 biggest conversion opportunities in your store.
           </p>
           <div className="mt-8">
             <CtaButton />

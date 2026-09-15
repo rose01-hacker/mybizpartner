@@ -9,7 +9,7 @@ const yes = [
 ];
 
 const no = [
-  "No live Shopify store",
+  "No live online store",
   "Still building first website",
   "Looking for overnight guarantees",
   "Only interested in more traffic",
@@ -20,7 +20,7 @@ export function QualifySection() {
     <section className="bg-secondary/60 py-20 md:py-28">
       <div className="section-x">
         <Reveal>
-          <h2 className="display-2 max-w-3xl">This report is built for Shopify brands.</h2>
+          <h2 className="display-2 max-w-3xl">This report is built for online brands.</h2>
         </Reveal>
 
         <div className="mt-12 grid gap-6 md:grid-cols-2">

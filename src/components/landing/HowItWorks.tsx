@@ -2,7 +2,7 @@ import heatmap from "@/assets/heatmap.jpg";
 import { Reveal } from "./Reveal";
 
 const steps = [
-  { n: "01", title: "Submit your store", desc: "Share your Shopify URL." },
+  { n: "01", title: "Submit your store", desc: "Share your store URL." },
   { n: "02", title: "We review your buying journey", desc: "Store, product page, checkout." },
   { n: "03", title: "Get your report", desc: "Findings, priorities, next steps." },
   { n: "04", title: "Decide what to do next", desc: "Act on it — with or without us." },

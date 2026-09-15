@@ -48,7 +48,7 @@ export function LeaksSection() {
               <div className="relative">
                 <img
                   src={productPage}
-                  alt="Shopify product page with highlighted friction areas"
+                  alt="Product page with highlighted friction areas"
                   loading="lazy"
                   width={1024}
                   height={768}
