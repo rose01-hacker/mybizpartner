@@ -1,5 +1,4 @@
 import { Mail, Phone } from "lucide-react";
-import logo from "@/assets/mybizpartner-logo-clear.png.asset.json";
 
 export function SiteFooter() {
   return (
@@ -7,8 +6,8 @@ export function SiteFooter() {
       <div className="section-x flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
         <div>
           <img
-            src={logo.url}
-            alt="image.png"
+            src="/image.png"
+            alt="MyBizPartner logo"
             width={220}
             height={56}
             loading="lazy"

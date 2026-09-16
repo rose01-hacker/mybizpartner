@@ -12,7 +12,6 @@ import { FinalCta } from "@/components/landing/FinalCta";
 import { SiteFooter } from "@/components/landing/SiteFooter";
 import { StickyCta } from "@/components/landing/StickyCta";
 import { CtaButton } from "@/components/landing/CtaButton";
-import logo from "@/assets/mybizpartner-logo-clear.png.asset.json";
 
 const title = "Free Conversion Leak Report | MyBizPartner";
 const description =
@@ -51,7 +50,7 @@ function Index() {
   return (
     <div className="min-h-screen pb-20 md:pb-0">
       <header className="section-x flex items-center justify-between py-5">
-        <img src="image.png" alt="MyBizPartner logo" width={280} height={72} className="h-14 w-auto" />
+        <img src="/image.png" alt="MyBizPartner logo" width={280} height={72} className="h-14 w-auto" />
         <CtaButton label="Free report" className="hidden px-5 py-3 sm:inline-flex" />
       </header>
 
