@@ -8,7 +8,7 @@ export function SiteFooter() {
         <div>
           <img
             src={logo.url}
-            alt="MyBizPartner logo"
+            alt="image.png"
             width={220}
             height={56}
             loading="lazy"
